@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: chartreuse;
+}
+.boton{
+	width: 100px;
+	height: 100px;
+	font-family: 'Pangolin', cursive;
+	font-size: 40px;
+	border-radius: 50%;
+	color: white;
+	background:rgba(255,255,255,.6);
+	border-style: solid black;
+	background-color: chartreuse;
+}
+
+.main{
+	color: white;
+	font-family: 'Pangolin', cursive;
+	
+	-webkit-text-stroke: 2px black;
+	text-align: center;
+}
+.main h1{
+	font-size: 50px;
+}
+.si{
+	display: none;
+	color: white;
+	font-family: 'Pangolin', bold;
+	margin-top: 20%;
+	-webkit-text-stroke: 2px black;
+
+	
+	/* IMPORTANTE */
+	text-align: center;
+}
+.si h1{
+	font-size: 50px;
+}
+#score{
+	color: white;
+	float: left;
+}
+#reat{
+	color: white;
+	
+}
